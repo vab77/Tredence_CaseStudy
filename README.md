@@ -1,12 +1,4 @@
-# AQUA — NumPy self-pruning network
 
-Working educational implementation of the basic architecture. The autodiff engine
-supports ReLU and tanh; the trained MLP uses ReLU in its first hidden layer and
-tanh in its second. The MLP, Adam,
-gradual magnitude/saliency pruning, sparse inference and training CLI are
-implemented. A three-seed, 27-run evidence sweep and sparse-path benchmark
-are saved under `results/part4_evidence/`. Automatic regrowth is not implemented,
-but explicit prune–revive optimizer transitions are tested.
 
 ## Setup
 
