@@ -1,0 +1,19 @@
+{
+  "method": "magnitude",
+  "seed": 0,
+  "target_sparsity": 0.9,
+  "achieved_sparsity": 0.9000618811881188,
+  "active_weights": 646,
+  "test_accuracy": 0.953405017921147,
+  "test_loss": 0.24288256852342593,
+  "training_seconds": 0.46686016701278277,
+  "epochs": 50,
+  "split_sizes": {
+    "train": 1252,
+    "validation": 266,
+    "test": 279
+  },
+  "python": "3.12.12",
+  "numpy": "2.5.4",
+  "platform": "macOS-15.7.9-arm64-arm-64bit"
+}

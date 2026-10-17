@@ -1,0 +1,19 @@
+{
+  "method": "dense",
+  "seed": 0,
+  "target_sparsity": 0.0,
+  "achieved_sparsity": 0.0,
+  "active_weights": 6464,
+  "test_accuracy": 0.967741935483871,
+  "test_loss": 0.1360628363088194,
+  "training_seconds": 0.46519616700243205,
+  "epochs": 50,
+  "split_sizes": {
+    "train": 1252,
+    "validation": 266,
+    "test": 279
+  },
+  "python": "3.12.12",
+  "numpy": "2.5.4",
+  "platform": "macOS-15.7.9-arm64-arm-64bit"
+}

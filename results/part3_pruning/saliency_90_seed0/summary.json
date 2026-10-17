@@ -1,0 +1,19 @@
+{
+  "method": "saliency",
+  "seed": 0,
+  "target_sparsity": 0.9,
+  "achieved_sparsity": 0.9000618811881188,
+  "active_weights": 646,
+  "test_accuracy": 0.96415770609319,
+  "test_loss": 0.20535792881072937,
+  "training_seconds": 0.44338304200209677,
+  "epochs": 50,
+  "split_sizes": {
+    "train": 1252,
+    "validation": 266,
+    "test": 279
+  },
+  "python": "3.12.12",
+  "numpy": "2.5.4",
+  "platform": "macOS-15.7.9-arm64-arm-64bit"
+}
