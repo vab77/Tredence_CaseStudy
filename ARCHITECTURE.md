@@ -117,13 +117,4 @@ MACs, but Python/indexing overhead may make it slower. The benchmark compares
 equivalent results, raw latency samples, operation
 counts and array payload bytes. It does not infer speedup from sparsity.
 
-## 12. How to study the files
 
-Start with `engine/tensor.py`, then `nn/losses.py`, `nn/layers.py`, `optim/adam.py`,
-`prune/controller.py`, and finally `train/loop.py`. Run a related test after reading
-each file. Use the simple x*x+x example to explain gradients aloud, then repeat the
-explanation with x multiplied by a zero mask.
-
-The code is an educational foundation. The saved evidence supports a limited
-three-seed comparison, not a broad method-superiority claim. The serving design
-in `DESIGN.md` is a proposal, not an implemented production service.
