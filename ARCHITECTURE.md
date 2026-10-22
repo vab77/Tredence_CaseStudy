@@ -2,9 +2,6 @@
 
 ## 1. The complete path
 
-The solid path below is implemented. Pruning is optional: dense mode skips the
-score and mask-update steps.
-
 
 ```text
 Digits loader → NumPy split / normalization → mini-batch
